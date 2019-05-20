@@ -1,2 +1,17 @@
 server:
   port: 8080
+
+spring:
+  application:
+    name: auth-web
+
+
+dubbo:
+  application:
+    name: auth-web-consumer
+  registry:
+    address: zookeeper://118.25.173.168:2181
+  protocol:
+    port: 6666
+  scan:
+    base-packages: com.medusa.auth.controller.login
