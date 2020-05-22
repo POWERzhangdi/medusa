@@ -11,5 +11,6 @@
 
     <groupId>com.medusa.common</groupId>
     <artifactId>common-util</artifactId>
+    <version>0.0.1-common</version>
 
 </project>

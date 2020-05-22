@@ -1,22 +1,21 @@
-package com.medusa.auth.controller;
+package com.medusa.auth.server;
 
+
+import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
-/**
- * @program: medusa
- * @description: 账户项目启动类
- * @author: PowerZzzD
- * @date: 2019/04/16 10:27
- */
-
+@EnableDubbo
+@EnableDubboConfig
 @SpringBootApplication
-public class AuthWebApplication {
+public class AuthServerApplication {
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(AuthWebApplication.class)
+        new SpringApplicationBuilder(AuthServerApplication.class)
                 .web(WebApplicationType.SERVLET)
                 .run(args);
     }
+
 }

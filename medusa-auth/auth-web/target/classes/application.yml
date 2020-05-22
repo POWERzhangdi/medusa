@@ -1,17 +1,26 @@
 server:
-  port: 8080
+  #端口
+  port: 8090
 
 spring:
+  #应用
   application:
     name: auth-web
 
 
+#服务注册
 dubbo:
+  #服务名称
   application:
     name: auth-web-consumer
+  #注册中心地址
   registry:
-    address: zookeeper://118.25.173.168:2181
+    address: zookeeper://123.56.252.124:2181
+  #服务端口
   protocol:
     port: 6666
+    id: auth-web-consumer
   scan:
-    base-packages: com.medusa.auth.controller.login
+    base-packages: com.medusa.auth.controller.service
+  consumer:
+    timeout: 6000

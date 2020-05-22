@@ -6,12 +6,20 @@
         <groupId>com.medusa.auth</groupId>
         <artifactId>medusa-auth</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.medusa.auth.web</groupId>
     <artifactId>auth-web</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.medusa.auth.api</groupId>
+            <artifactId>auth-api</artifactId>
+            <version>0.0.1-auth-api</version>
+        </dependency>
+    </dependencies>
 
 </project>
