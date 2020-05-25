@@ -12,6 +12,8 @@
 | dubbo     |   2.7.6   | 可以升级更高的版本自我扩展 |  
 | jwt     |   3.8.0   | 可以升级更高的版本自我扩展 | 
 | zookeeper     |   3.6.1   | 可以升级更高的版本自我扩展 | 
+| cloud     |   Hoxton.SR4  | 可以升级更高的版本自我扩展 | 
+| eureka     |   2.2.2  | 可以升级更高的版本自我扩展 | 
 
 * 备注
 《可以升级更高的版本自我扩展》不能保证项目可以启动需要，需要自己适配版本
@@ -20,7 +22,11 @@
 1.模块划分
 | 模块名称      | 版本号     | 备注     |  
 | ---------- | :-----------:  | :-----------: |  
-| medusa-auth     |   1.0-SNAPSHOT   | 权限校验 |  
+| medusa-auth     |   1.0-SNAPSHOT   | 用户中心(包含权限校验) |  
 | medusa-gateway     |   1.0-SNAPSHOT   | 网关层 |  
+| medusa-eureka-server     |   1.0-SNAPSHOT   | eureka注册中心 | 
+| common-util     |   0.0.1-common   | 共公的工具类 |
+
+
 
  

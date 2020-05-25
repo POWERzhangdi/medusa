@@ -8,8 +8,9 @@ spring:
     gateway:
       routes:
        - id: test-gateway
-         uri: https://cloud.spring.io/spring-cloud-gateway/reference/html
+         uri: https://cloud.spring.io/spring-cloud-gateway/reference/html #路由的地址
          predicates:
+          # - Method = GET #可以跳转
           - Path=/test/** #跳不过去
       discovery:
         locator:
