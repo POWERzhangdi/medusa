@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: eureka-server #指定服务名称
+    name: eurekaServer #指定服务名称
 eureka:
   instance:
     #hostname: localhost #指定主机地址

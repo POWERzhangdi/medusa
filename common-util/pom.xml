@@ -13,4 +13,10 @@
     <artifactId>common-util</artifactId>
     <version>0.0.1-common</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 </project>

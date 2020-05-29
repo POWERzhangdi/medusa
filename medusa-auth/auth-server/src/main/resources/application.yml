@@ -50,7 +50,5 @@ dubbo:
   protocol:
     port: 6666
     id: auth-web-provider
-  scan:
-    base-packages: com.medusa.auth.server.api
   provider:
     timeout: 6000

@@ -22,7 +22,5 @@ dubbo:
   protocol:
     port: 6666
     id: auth-web-consumer
-  scan:
-    base-packages: com.medusa.auth.controller.service
   consumer:
     timeout: 6000
