@@ -1,4 +1,4 @@
-package com.medusa.auth.controller.vo;
+package com.medusa.auth.web.controller.vo;
 
 import com.medusa.common.constant.Const;
 import lombok.Data;

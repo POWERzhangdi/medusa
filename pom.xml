@@ -21,6 +21,7 @@
         <module>medusa-gateway</module>
         <module>common-util</module>
         <module>medusa-eureka-server</module>
+        <module>medusa-order</module>
     </modules>
 
     <properties>

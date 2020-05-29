@@ -1,4 +1,4 @@
-package com.medusa.auth.controller;
+package com.medusa.auth.web.controller;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.medusa.auth.controller.login;
+package com.medusa.auth.web.controller.login;
 
-import com.medusa.auth.controller.service.UserService;
-import com.medusa.auth.controller.vo.UserWebVO;
+import com.medusa.auth.web.controller.service.UserService;
+import com.medusa.auth.web.controller.vo.UserWebVO;
 import com.medusa.common.response.ResponseWebDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

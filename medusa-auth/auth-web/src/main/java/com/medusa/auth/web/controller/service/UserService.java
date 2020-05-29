@@ -1,8 +1,8 @@
-package com.medusa.auth.controller.service;
+package com.medusa.auth.web.controller.service;
 
 import com.medusa.auth.api.dto.UserDTO;
 import com.medusa.auth.api.service.IUserService;
-import com.medusa.auth.controller.vo.UserWebVO;
+import com.medusa.auth.web.controller.vo.UserWebVO;
 import com.medusa.common.response.ResponseApiDTO;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Component;
