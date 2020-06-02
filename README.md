@@ -47,19 +47,19 @@ hystrix     |   2.2.2  | 可以升级更高的版本自我扩展 |
 
 * gateway模块
 
-1.占用的端口号 8080
+>1 占用的端口号 8080
 
-2.spring cloud gateway eureka
+>1 spring cloud gateway eureka
 
 * eureka server模块
 
-1.占用的端口号 8070
+>1 占用的端口号 8070
 
 * order模块
 
-1.占用的端口号 server-8060 web-8061
+>1 占用的端口号 server-8060 web-8061
 
-2.使用cloud openfeign eureka
+>1 使用cloud openfeign eureka
 
 
 
