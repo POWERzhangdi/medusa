@@ -7,11 +7,11 @@ spring:
   cloud:
       discovery:
         locator:
-          enabled: false
-          lower-case-service-id: false
+          enabled: true
+          lower-case-service-id: true
       gateway:
         routes:
-          id: method_route
+          id: order-web
           uri: http://www.baidu.com
           predicates:
           - Method=GET
@@ -19,5 +19,7 @@ spring:
 #客户端注册到 eureka服务中心
 eureka:
   client:
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
       defaultZone: http://localhost:8070/eureka/
