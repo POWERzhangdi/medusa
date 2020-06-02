@@ -34,6 +34,10 @@ hystrix     |   2.2.2  | 可以升级更高的版本自我扩展 |
  common-util     |   0.0.1-common   | 共公的工具类 |  
  medusa-order     |   1.0-SNAPSHOT   | 订单服务 |
  
+* 第三阶段
+
+1.服务的负载均衡 监控(TODO)
+ 
 # 项目备注
 
 * auth模块
@@ -50,6 +54,8 @@ hystrix     |   2.2.2  | 可以升级更高的版本自我扩展 |
 * order模块
 1.占用的端口号 server 8060 web 8061
 2.使用cloud openfeign eureka
+
+
 
 
 
