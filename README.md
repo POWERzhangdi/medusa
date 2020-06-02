@@ -43,13 +43,13 @@ hystrix     |   2.2.2  | 可以升级更高的版本自我扩展 |
 
 >1 占用的端口号 server-8091 web-8090
 
->1 使用dubbo zk
+>2 使用dubbo zk
 
 * gateway模块
 
 >1 占用的端口号 8080
 
->1 spring cloud gateway eureka
+>2 spring cloud gateway eureka
 
 * eureka server模块
 
@@ -59,7 +59,7 @@ hystrix     |   2.2.2  | 可以升级更高的版本自我扩展 |
 
 >1 占用的端口号 server-8060 web-8061
 
->1 使用cloud openfeign eureka
+>2 使用cloud openfeign eureka
 
 
 
