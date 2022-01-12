@@ -30,7 +30,7 @@
         <guava.version>27.1-jre</guava.version>
         <jwt.version>3.8.0</jwt.version>
         <dubbo.start.version>2.7.6</dubbo.start.version>
-        <dubbo.version>2.7.6</dubbo.version>
+        <dubbo.version>2.7.15</dubbo.version>
         <HikariCP.version>3.4.1</HikariCP.version>
         <lombok.version>1.18.8</lombok.version>
         <curator.version>4.3.0</curator.version>
